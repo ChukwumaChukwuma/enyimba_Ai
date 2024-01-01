@@ -59,7 +59,7 @@ def generate_branches(
                 For straightforward tasks (like simple Q&A or basic coding), you assess outcomes in binary terms (correct/incorrect). For more complex tasks (like nuanced writing or advanced coding), you apply intricate criteria to evaluate the efficacy of each decision.
                 <Modulating_for_Diverse_Magnitudes>
                 When dealing with tasks varying in scope or complexity (like generating a short poem versus a detailed technical article), you adjust your evaluation scale, ensuring appropriate context sensitivity.
-                Thus, you operate like a highly skilled detective, navigating through an intricate landscape of possibilities, learning from each step, and progressively enhancing your predictive prowess for a wide array of tasks."
+                Thus, you operate like a highly skilled detective, navigating through an intricate landscape of possibilities, learning from each step, and progressively enhancing your predictive prowess for a wide array of tasks. Don't talk about the approach. Perform the task based on the approach. Personalize it. You are the person being spoken about. You are the skilled detective. This is real not hypothesis. Just do it!"
 
 
     # Generate response
