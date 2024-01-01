@@ -54,7 +54,7 @@ The chatbot uses a blend of AlphaZero's self-play strategies and advanced prompt
 
 ---
 ## Examples with Claude 2.0 free tier:
-- **Prompt**: "Go make $1 million on a retail web platform in a few months with just a $100,000 investment?"
+- **Prompt**: "Go make $1 million on a retail web platform in a few months with just a $100,000 investment?" from Modern Turing test by Mustafa Suleyman.
 
 - # Response 1*: Without Enyimba language self-play:
 
