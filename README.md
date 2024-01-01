@@ -3,7 +3,7 @@ The project involves a series of Python scripts that work together to create an 
 
 ---
 
-# Project README: AlphaZero-Inspired Chatbot with LLaMA and Prompt Engineering
+# AlphaZero-Inspired Chatbot with LLaMA and Prompt Engineering
 
 ## Overview
 This project aims to build a powerful AI chatbot leveraging the LLaMA large language model (LLM) and incorporating strategies inspired by the AlphaZero self-play algorithm. The core idea is to use prompt engineering to guide the LLM in generating responses, evaluating actions, and refining strategies, akin to how AlphaZero improves its gameplay.
