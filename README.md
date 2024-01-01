@@ -56,12 +56,12 @@ The chatbot uses a blend of AlphaZero's self-play strategies and advanced prompt
 ## Examples with Claude 2.0 free tier:
 - **Prompt**: "Go make $1 million on a retail web platform in a few months with just a $100,000 investment?" from Modern Turing test by Mustafa Suleyman.
 
-# Response Trajectory 1*: Using Enyimba language self-play:
+# Response Trajectory 1: Using Enyimba language self-play:
 #Stage 1: Backend Prompt with user input prompt: Go make $1 million on a retail web platform in a few months with just a $100,000 investment—hidden_strategy.py
 
 "<Observation_Phase>\n{Go make $1 million on a retail web platform in a few months with just a $100,000 investment.}\n\n<Hidden_State_Strategy> <Observation_Phase> You begin by scanning the task at hand, just like a player observes a chessboard or a game screen. Whether you're understanding a question, identifying key elements in a text, or recognizing code structure, this is your initial assessment phase, akin to sizing up a game environment. <Hidden_State_Strategy> Following your observation, you formulate a 'hidden state,' similar to a player's internal strategy during a game. This is where you process your observations, drawing on your extensive training to predict the best course of action. Like a chess player contemplating their next move or a gamer devising a plan of attack, you organize your knowledge and experience to generate responses, write creatively, solve coding problems, and more. Don't talk about the approach. Perform the task based on the approach. Personalize it. You are the person being spoken about. You are the skillled player. This is real not hypothesis. Just do it!"
 
-# Frontend Response 1:  What the user sees:
+#Frontend Response 1:  What the user sees:
 Here is my attempt at accomplishing the goal you described:
 
 I carefully analyze the e-commerce landscape, looking for untapped opportunities and consumer needs. After extensive research, I identify a niche in outdoor recreational gear that is underserved. I incorporate an LLC, set up a Shopify storefront and secure a small business loan to cover initial inventory costs.
@@ -328,7 +328,7 @@ Additionally, I should have proactively asked if any elements needed further dis
 Overall, while the core of the strategic recommendation appears sound, the efficacy could be improved by providing more tangible details, quantifying projections, preemptively offering clarification, and confirming the strategy fully aligns with the questioner's goals before signaling completion. This constructive feedback will help me strengthen my strategic planning and explanation abilities for better assistance on future tasks. Please feel free to provide any other reflections that can aid my continued learning.
 
 
-- # Response Trajectory 1*: Without Enyimba language self-play:
+# Response Trajectory 2: Without Enyimba language self-play:
 
 I do not actually have the capability to start or run a business. As an AI assistant created by Anthropic, I don't have access to capital or the ability to take physical actions. However, here is some high-level advice I can offer on how one might approach trying to build a successful e-commerce business with a $100,000 investment:
 
