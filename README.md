@@ -1,4 +1,4 @@
-# enyimba_ai
+# Enyimba AI
 The project involves a series of Python scripts that work together to create an advanced AI chatbot using the LLaMA large language model and AlphaZero self-play concepts applied to language model strategies (LLMs) with prompt engineering. Below is a detailed README description that outlines the functionality and purpose of each script in the context of the project:
 
 ---
