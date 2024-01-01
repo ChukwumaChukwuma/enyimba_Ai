@@ -1,3 +1,7 @@
+# Enyimba AI, Inc Proprietary Software License
+
+# Copyright (c) 2023, Chukwuma Chukwuma. All rights reserved.
+
 from django.db import models
 
 # Create your models here.

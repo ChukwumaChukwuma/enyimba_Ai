@@ -1,5 +1,6 @@
-# Copyright (c) Enyimba AI, Inc. and affiliates.
-# This software may be used and distributed according to the terms of the Apache License.
+# Enyimba AI, Inc Proprietary Software License
+
+# Copyright (c) 2023, Chukwuma Chukwuma. All rights reserved.
 
 import fire
 from llama import Llama
