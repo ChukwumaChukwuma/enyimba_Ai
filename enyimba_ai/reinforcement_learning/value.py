@@ -4,7 +4,7 @@
 
 import fire
 import requests
-from llama.llama import Llama
+from llama import Llama
 from updated_strategy import update_rl_strategy 
 
 # Function to get user query from Django app

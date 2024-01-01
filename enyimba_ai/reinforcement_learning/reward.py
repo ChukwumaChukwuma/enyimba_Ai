@@ -5,7 +5,7 @@
 
 import fire
 import requests
-from llama.llama import Llama
+from llama import Llama
 from typing import List, Dict
 from policy import determine_best_move as get_best_move
 

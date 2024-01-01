@@ -4,7 +4,7 @@
 
 import fire
 import requests
-from llama.llama import Llama
+from llama import Llama
 from typing import List, Dict
 
 # Function to get user query from Django app

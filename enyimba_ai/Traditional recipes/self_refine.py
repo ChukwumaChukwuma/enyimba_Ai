@@ -3,7 +3,7 @@
 # Copyright (c) 2023, Chukwuma Chukwuma. All rights reserved.
 
 import fire
-from llama.llama import Llama
+from llama import Llama
 from generate import get_previous_solution  # Assuming this function is defined in generate.py
 from django.conf import settings
 from enyimba_chatbot.models import UserQuery  # Assuming UserQuery is the model name

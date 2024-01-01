@@ -3,7 +3,7 @@
 # Copyright (c) 2023, Chukwuma Chukwuma. All rights reserved.
 
 import fire
-from llama.llama import Llama
+from llama import Llama
 from typing import List
 from django.conf import settings
 from enyimba_chatbot.models import UserQuery  # Assuming UserQuery is the model name

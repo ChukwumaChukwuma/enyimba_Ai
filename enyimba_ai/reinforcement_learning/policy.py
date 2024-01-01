@@ -5,7 +5,7 @@
 
 import fire
 import requests
-from llama.llama import Llama
+from llama import Llama
 from typing import Dict
 
 # Importing the functions from other modules

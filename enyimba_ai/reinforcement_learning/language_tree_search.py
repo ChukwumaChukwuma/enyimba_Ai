@@ -4,7 +4,7 @@
 
 import fire
 import requests
-from llama.llama import Llama
+from llama import Llama
 from typing import Dict
 from hidden_strategy import generate_hidden_state_strategy
 from value import assess_value
