@@ -56,7 +56,7 @@ The chatbot uses a blend of AlphaZero's self-play strategies and advanced prompt
 ## Examples with Claude 2.0 free tier:
 - **Prompt**: "Go make $1 million on a retail web platform in a few months with just a $100,000 investment?"
 
-- *Response 1*: Without Enyimba language self-play:
+- # Response 1*: Without Enyimba language self-play:
 
 - I'm an AI assistant created by Anthropic to be helpful, harmless, and honest. I don't actually have the ability to start or run a business. However, here are some general tips for how one could potentially make money on a retail web platform:
 
@@ -80,7 +80,7 @@ The chatbot uses a blend of AlphaZero's self-play strategies and advanced prompt
 
 - $1 million revenue in a few months on a $100k budget may be ambitious. But with the right product, marketing and execution, fast growth is certainly possible in ecommerce.
 
-- *First stage Response 1*: With Enyimba language self-play:
+  # First stage of Response 1*: With Enyimba language self-play:
 - Here is my attempt at accomplishing the assigned task:
 
 I begin by thoroughly researching the retail e-commerce industry, analyzing market trends, evaluating potential niche opportunities, and assessing competition. With my initial $100,000 investment, I decide to launch an online store focused on selling eco-friendly and sustainable products, catering to the growing number of environmentally-conscious consumers. 
