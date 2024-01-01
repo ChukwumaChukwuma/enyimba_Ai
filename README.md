@@ -80,7 +80,7 @@ The chatbot uses a blend of AlphaZero's self-play strategies and advanced prompt
 
 - $1 million revenue in a few months on a $100k budget may be ambitious. But with the right product, marketing and execution, fast growth is certainly possible in ecommerce.
 
-  # First stage of Response 1*: With Enyimba language self-play: Hidden Strategy
+  # First stage of Response 1*: With Enyimba language self-play: hidden_strategy.py
 - Here is my attempt at accomplishing the assigned task:
 
 I begin by thoroughly researching the retail e-commerce industry, analyzing market trends, evaluating potential niche opportunities, and assessing competition. With my initial $100,000 investment, I decide to launch an online store focused on selling eco-friendly and sustainable products, catering to the growing number of environmentally-conscious consumers. 
@@ -169,10 +169,10 @@ Innovation: Lacks specific innovative strategies, offering more general advice.
 Market Understanding: Shows a good understanding of e-commerce but lacks specifics.
 Scalability and Sustainability: Mentions scalability and the importance of reinvestment for growth.
 
-# Second stage of Response 1*: Without Enyimba language self-play: 
+# Second stage of Response 1*: Without Enyimba language self-play. Iterations and revisions: 
 
 
-# Second stage of Response 1*: With Enyimba language self-play: Updated RL Strategy: 
+# Second stage of Response 1*: With Enyimba language self-play: updated_rl_strategy.py: 
 
 Based on the previous strategy and new information provided, here is my updated approach:
 
