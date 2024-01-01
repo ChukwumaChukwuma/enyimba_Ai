@@ -2,18 +2,11 @@
 
 # Copyright (c) 2023, Chukwuma Chukwuma. All rights reserved.
 
-from django.shortcuts import render
 
-# Create your views here.
 from django.http import JsonResponse
 from django.views.decorators.http import require_http_methods
 from .models import UserQuery
-from reinforcement_learning.hidden_strategy import generate_hidden_state_strategy
-from reinforcement_learning.language_tree_search import generate_branches
 from reinforcement_learning.policy import determine_best_move
-from reinforcement_learning.reward import evaluate_reward
-from reinforcement_learning.updated_strategy import update_rl_strategy
-from reinforcement_learning.value import assess_value
 
 @require_http_methods(["GET"])
 def get_user_query_view(request):
@@ -31,19 +24,14 @@ def chatbot_response(request):
         # Extract query from request
         query_text = request.POST.get('query')
 
-        # Process the query through various components
-        hidden_state = generate_hidden_state_strategy(query_text)
-        language_tree = generate_branches(query_text, hidden_state)
-        policy = determine_best_move(language_tree)
-        reward = evaluate_reward(policy)
-        updated_strategy = update_rl_strategy(reward)
-        response_text = assess_value(updated_strategy)
+        # Process the query to determine the best move
+        best_move_result = determine_best_move(query_text)
 
         # Save query and response to the database
-        UserQuery.objects.create(query_text=query_text, response_text=response_text)
+        UserQuery.objects.create(query_text=query_text, response_text=best_move_result['best_move'])
 
         # Return response
-        return JsonResponse({'response': response_text})
+        return JsonResponse({'response': best_move_result['best_move']})
 
     except Exception as e:
         return JsonResponse({'error': str(e)})

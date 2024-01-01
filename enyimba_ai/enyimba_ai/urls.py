@@ -14,9 +14,14 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
+# enyimba_ai/urls.py
+
 from django.contrib import admin
 from django.urls import path
+from enyimba_chatbot.views import get_user_query_view  # Import the view
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('get-user-query/', get_user_query_view, name='get_user_query'),  # Directly point to the view
+    # ... other patterns ...
 ]

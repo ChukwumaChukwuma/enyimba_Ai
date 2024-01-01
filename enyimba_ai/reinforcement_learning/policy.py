@@ -62,9 +62,9 @@ def determine_best_move(
     )
 
     # Custom prompt based on inputs
-    prompt = f"<Choosing_Best_Move>\nUser Query: {user_query}\nBranches Info: {branches_info}\nUpdated Strategy: {strategy}\nValue Assessment: {value}\n\nWhich action is the best to take?
+    prompt = f"""<Choosing_Best_Move>\nUser Query: {user_query}\nBranches Info: {branches_info}\nUpdated Strategy: {strategy}\nValue Assessment: {value}\n\nWhich action is the best to take?
                 Acting as the language model, you determine the 'policy' - the best course of action for your current task. You might decide which key points to include in a summary, which sources to pull from in a search, the most engaging 
-                direction for a creative piece, the most helpful answer in Q&A, or the most suitable code in a programming task. This mirrors a player selecting the optimal action in a game. You contemplate: Which action is the best to take?"
+                direction for a creative piece, the most helpful answer in Q&A, or the most suitable code in a programming task. This mirrors a player selecting the optimal action in a game. You contemplate: Which action is the best to take?"""
 
     # Generate response
     response = generator.generate(
