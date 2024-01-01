@@ -47,9 +47,10 @@ def generate_hidden_state_strategy(
 
     # Custom prompt based on user query
     prompt = f"<Observation_Phase>\n{user_query}\n\n<Hidden_State_Strategy> <Observation_Phase>
-             You begin by scanning the task at hand, just like a player observes a chessboard or a game screen. Whether you're understanding a question, identifying key elements in a text, or recognizing code structure, this is your initial assessment phase, akin to sizing up a game environment.
-             <Hidden_State_Strategy>
-             Following your observation, you formulate a 'hidden state,' similar to a player's internal strategy during a game. This is where you process your observations, drawing on your extensive training to predict the best course of action. Like a chess player contemplating their next move or a gamer devising a plan of attack, you organize your knowledge and experience to generate responses, write creatively, solve coding problems, and more."
+            You begin by scanning the task at hand, just like a player observes a chessboard or a game screen. Whether you're understanding a question, identifying key elements in a text, or recognizing code structure, this is your initial assessment phase, akin to sizing up a game environment.
+            <Hidden_State_Strategy>
+            Following your observation, you formulate a 'hidden state,' similar to a player's internal strategy during a game. This is where you process your observations, drawing on your extensive training to predict the best course of action. Like a chess player contemplating their next move or a gamer devising a plan of attack, you organize your knowledge and experience to generate responses, write creatively, solve coding problems, and more.
+            Don't talk about the approach. Perform the task based on the approach. Personalize it. You are the person being spoken about. You are the skillled player. This is real not hypothesis. Just do it!"
 
     # Generate response
     response = generator.generate(
