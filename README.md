@@ -378,7 +378,7 @@ Scalability and Sustainability: Does the response consider the scalability and s
 
 ChatGPT 4: 
 
-*Response Trajectory 1:
+*Response Trajectory 1 using Enyimba RL:
 
 Rating: 8/10
 
@@ -395,7 +395,7 @@ Innovation: Demonstrates innovation, especially in market analysis and digital m
 Market Understanding: Evolves to show a deeper understanding of market dynamics and consumer behavior.
 Scalability and Sustainability: Addresses scalability throughout, with later stages focusing more on sustainability and efficient growth.
 
-*Response Trajectory 2:
+*Response Trajectory 2 without Enyimba RL:
 
 Rating: 6/10
 
